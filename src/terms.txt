@@ -1,0 +1,22 @@
+executable - A file in which contains the final desired output of a program. The output from a linker.
+main() - A function in which the program starts executing.
+<< - Output operator that puts into cout.
+function - Block of code in which it performs a specific action. basically a named sequence of instructions for the computer to execute in the order in which they are written
+object code - Machine understandable code, Created from Source Code by Compiler. It's extention is in .obj or .o in linux. This is what the computer executes.
+C++ - A Powerfull Programming Language in which we have can access low level hardwars.
+header file - Header file contains the declaration's of library files.
+output - The final result of a program.
+comment - Anything written after the token // (that’s the character /, called “slash,” twice) on a line is a comment. Comments are ignored by the compiler and written for the benefit of programmers who read the code.
+IDE - Integrated or Interactive Development Environment which contains necessary tools to run a program. 
+program - A set instruction to a computer which describes "What to do?".
+compiler - A special tool used to convert Source code into an Object code by checking the grametical rules of programming language.
+import - A statement in which gains access to the library to use it in our program. 
+source code - The program code written by a Human (Programmer) or Human readable code.
+compile-time error - Error occured during the compilation process, Due to not satisfying of gramatical rules of c++.
+library - A library is simply some code – usually written by others – that we access using declarations found in an imported module.
+statement - A part of C++ program that specifies an action.
+cout - Character Output Stream ("See-Out"), which displays the output to the monitor.
+linker - A program which link's (combines) seperated parts modules or translation units together into single executable.
+module - New feature of C++ 20
+#include std - This like includes the standard library facilities into our program. less elegant and less efficient technique that has worked since the early days of C: #include a header file
+command line - A text-based interface that allows user to interact with a computer's operating system by typing commands.
