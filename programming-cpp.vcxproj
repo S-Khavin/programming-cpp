@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -19,6 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <Text Include="LICENSE.txt" />
+    <Text Include="src\terms.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="module\PPP.ixx" />
     <ClCompile Include="src\cooking_maggie.cpp" />
     <ClCompile Include="src\find_upstair_bathroom.cpp" />
     <ClCompile Include="src\hello_programming.cpp" />
@@ -26,7 +31,12 @@
     <ClCompile Include="src\home_to_classroom.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="src\terms.txt" />
+    <ClInclude Include="include\PPP_support.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include="README.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -105,6 +115,7 @@
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <AdditionalModuleDependencies>Yes</AdditionalModuleDependencies>
       <BuildStlModules>true</BuildStlModules>
+      <AdditionalIncludeDirectories>$(SolutionDir)include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -122,6 +133,7 @@
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <AdditionalModuleDependencies>Yes</AdditionalModuleDependencies>
       <BuildStlModules>true</BuildStlModules>
+      <AdditionalIncludeDirectories>$(SolutionDir)include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -137,6 +149,7 @@
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <AdditionalModuleDependencies>Yes</AdditionalModuleDependencies>
       <BuildStlModules>true</BuildStlModules>
+      <AdditionalIncludeDirectories>$(SolutionDir)include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -154,6 +167,7 @@
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <AdditionalModuleDependencies>Yes</AdditionalModuleDependencies>
       <BuildStlModules>true</BuildStlModules>
+      <AdditionalIncludeDirectories>$(SolutionDir)include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
