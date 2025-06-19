@@ -20,3 +20,29 @@ linker - A program which link's (combines) seperated parts modules or translatio
 module - New feature of C++ 20
 #include std - This like includes the standard library facilities into our program. less elegant and less efficient technique that has worked since the early days of C: #include a header file
 command line - A text-based interface that allows user to interact with a computer's operating system by typing commands.
+cin - Character or Standard input stream, used to get input from keyboard
+increment - adding 1 to a value
+operator - performs operations on operands
+concatenation - merging of string
+initialization - Assigning a value in definition of variable
+type - A type defines a set of possible values and a set of operations (for an object)
+conversion - Changing the value type to another type
+name - Identifier of an object
+type safety - The object are to be used according to the rules of their type
+declaration - A declaration is a statement that gives a name and a type to an object
+narrowing -	conversion from larger types to smaller types
+value -  The data items we put into variables are called values
+decrement - subtracting -1 from a value
+object - A region in memory that holds values which has name and its type
+variable - The named object is called value
+widening - conversion from smaller types to larger types
+truncation - loss of floating point precision
+int - integer data type which can hold integer value
+double - holds floating point values
+string - holds words (sequence of characters without spaces)
+auto - exactly the same as the one with explicit types
+== - check whether both the values are equal
+!= - check whether both the values are not equal
+++ - increment operator
+< - less than operator
+= - assignment operator
